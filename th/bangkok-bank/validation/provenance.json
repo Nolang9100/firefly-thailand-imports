@@ -1,0 +1,14 @@
+{
+  "status": "LOCAL_CONVERTER_VALIDATION_RECORD",
+  "created": "2026-11-05",
+  "parser_origin": "import_bank_statement_attachments.py: Bangkok Bank parser and six statement controls; adapted with generic output builder",
+  "configuration_schema": "https://github.com/firefly-iii/data-importer/blob/v2.3.5/resources/schemas/v3.json",
+  "target_importer": "2.3.5",
+  "contains_real_statement_data": false,
+  "documentation_language": "English",
+  "configuration_path": "th/bangkok-bank/default.json",
+  "upstream_requirements_checked": "2026-11-05",
+  "upstream_readme": "https://github.com/firefly-iii/import-configurations/blob/main/README.md",
+  "upstream_pr_template": "https://github.com/firefly-iii/import-configurations/blob/main/.github/pull_request_template.md",
+  "license": "AGPL-3.0-only; default.json separately CC-BY-SA-4.0"
+}

@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "bank": "lh-bank",
+  "currency": "THB",
+  "statement_text_sha256": "",
+  "controls": {
+    "opening_balance": {
+      "value": "",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "",
+        "sha256": "",
+        "locator": "",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    },
+    "closing_balance": {
+      "value": "",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "",
+        "sha256": "",
+        "locator": "",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    },
+    "withdrawal_count": {
+      "value": "",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "",
+        "sha256": "",
+        "locator": "",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    },
+    "deposit_count": {
+      "value": "",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "",
+        "sha256": "",
+        "locator": "",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    },
+    "withdrawal_total": {
+      "value": "",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "",
+        "sha256": "",
+        "locator": "",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    },
+    "deposit_total": {
+      "value": "",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "",
+        "sha256": "",
+        "locator": "",
+        "reviewed_by": "",
+        "reviewed_at": ""
+      }
+    }
+  }
+}

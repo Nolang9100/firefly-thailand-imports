@@ -1,0 +1,9 @@
+{
+  "created": "2026-11-05",
+  "bank": "Land and Houses Bank (LH Bank)",
+  "source": "Existing internal bank statement parser; generic standalone adapter",
+  "configuration_path": "th/lh-bank/default.json",
+  "status": "Experimental: incomplete statement controls; manual review required.",
+  "contains_real_statement_data": false,
+  "license": "AGPL-3.0-only; default.json separately CC-BY-SA-4.0"
+}

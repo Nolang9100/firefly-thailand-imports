@@ -1,0 +1,16 @@
+Bangkok Bank Public Company Limited
+SYNTHETIC TEST DATA - NOT A BANK STATEMENT
+Currency THB
+01/09/2026 - 30/09/2026
+01/09/26 B/F 100.00
+02/09/26 PAYMENT 10.00 90.00 mPhone
+03/09/26 TRANSFER 50.00 140.00 Auto
+Page 1 / 2
+
+04/09/26 PAYMENT 20.00 120.00 mPhone
+2Total No. of Debits
+Total No. of Credits Total Credit Amount
+Total Debit Amount
+1 50.00
+30.00
+Page 2 / 2

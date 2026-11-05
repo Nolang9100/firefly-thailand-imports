@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "bank": "kbank",
+  "status": "LOCAL_CONVERSION_PASSED",
+  "tests_passed": 12,
+  "tests_skipped_not_applicable": 0,
+  "schema_validation": "PASS: importer 2.3.5 v3",
+  "synthetic_plain_pdf_test": "PASS",
+  "synthetic_encrypted_pdf_test": "PASS",
+  "synthetic_cli_test": "PASS",
+  "sample_rows": 2,
+  "sample_net_change": "20.00",
+  "sample_opening_balance": "100.00",
+  "sample_closing_balance": "120.00",
+  "checks": {
+    "count_check": "OK",
+    "amount_check": "OK",
+    "balance_check": "OK",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "real_statement_compatibility_tested": true,
+  "firefly_import_tested": false,
+  "real_source_sample_count": 3,
+  "real_source_rows_checked": 124,
+  "actual_firefly_import_tested": false,
+  "real_source_evidence_included": false,
+  "coverage_limitation": "Selected local samples only; reference parser shares logic; not a formal finance audit"
+}

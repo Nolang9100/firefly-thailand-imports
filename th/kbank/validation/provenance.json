@@ -1,0 +1,9 @@
+{
+  "created": "2026-11-05",
+  "bank": "Kasikornbank (KBank)",
+  "source": "Existing internal bank statement parser; generic standalone adapter",
+  "configuration_path": "th/kbank/default.json",
+  "status": "Local conversion controls implemented; real-statement and Firefly acceptance pending.",
+  "contains_real_statement_data": false,
+  "license": "AGPL-3.0-only; default.json separately CC-BY-SA-4.0"
+}

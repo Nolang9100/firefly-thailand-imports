@@ -1,0 +1,105 @@
+{
+  "status": "LOCAL_CONVERSION_WITH_ATTESTED_CONTROLS",
+  "bank": "lh-bank",
+  "rows": 2,
+  "currency": "THB",
+  "statement_text_sha256": "362a31aaa3318d914a5970791b3f21765efb5e9dd8dfe4b481daede36031c6bd",
+  "checks": {
+    "count_check": "NOT_CHECKED",
+    "amount_check": "NOT_CHECKED",
+    "balance_check": "NOT_CHECKED",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "controls": {
+    "expected_withdrawal_count": null,
+    "expected_deposit_count": null,
+    "expected_withdrawal_total": null,
+    "expected_deposit_total": null,
+    "count_check": "NOT_CHECKED",
+    "amount_check": "NOT_CHECKED",
+    "opening_balance": "100.00",
+    "closing_balance": "120.00",
+    "expected_closing_balance": null,
+    "balance_check": "NOT_CHECKED",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "opening_balance_source": "first_row_derived_not_independent",
+  "closing_balance_source": "last_transaction_row",
+  "source_control_gaps": [
+    "printed_opening_balance",
+    "printed_debit_credit_counts_and_totals",
+    "separately_printed_closing_summary"
+  ],
+  "external_controls": {
+    "status": "MATCH",
+    "checks": {
+      "opening_balance": "MATCH",
+      "closing_balance": "MATCH",
+      "withdrawal_count": "MATCH",
+      "deposit_count": "MATCH",
+      "withdrawal_total": "MATCH",
+      "deposit_total": "MATCH"
+    },
+    "sources": [
+      {
+        "metric": "opening_balance",
+        "source_sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "kind": "bank_control_summary",
+        "locator": "opening_balance",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      },
+      {
+        "metric": "closing_balance",
+        "source_sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "kind": "bank_control_summary",
+        "locator": "closing_balance",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      },
+      {
+        "metric": "withdrawal_count",
+        "source_sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "kind": "bank_control_summary",
+        "locator": "withdrawal_count",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      },
+      {
+        "metric": "deposit_count",
+        "source_sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "kind": "bank_control_summary",
+        "locator": "deposit_count",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      },
+      {
+        "metric": "withdrawal_total",
+        "source_sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "kind": "bank_control_summary",
+        "locator": "withdrawal_total",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      },
+      {
+        "metric": "deposit_total",
+        "source_sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "kind": "bank_control_summary",
+        "locator": "deposit_total",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      }
+    ],
+    "assurance": "file_hashes_and_scope_checked_values_manually_attested",
+    "semantic_source_extraction_verified_by_converter": false
+  },
+  "csv_export_ready": true,
+  "formal_source_approval": false,
+  "firefly_import_tested": false,
+  "validation_scope": "local_conversion_not_posting_approval",
+  "input_sha256": "253aaac33210c9608c78d391d714637bc6865ed7b9d0e467df78bec811adc15b"
+}

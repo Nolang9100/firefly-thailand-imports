@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "bank": "lh-bank",
+  "currency": "THB",
+  "statement_text_sha256": "362a31aaa3318d914a5970791b3f21765efb5e9dd8dfe4b481daede36031c6bd",
+  "controls": {
+    "opening_balance": {
+      "value": "100.00",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "synthetic-independent-controls.txt",
+        "sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "locator": "opening_balance",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      }
+    },
+    "closing_balance": {
+      "value": "120.00",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "synthetic-independent-controls.txt",
+        "sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "locator": "closing_balance",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      }
+    },
+    "withdrawal_count": {
+      "value": "1",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "synthetic-independent-controls.txt",
+        "sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "locator": "withdrawal_count",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      }
+    },
+    "deposit_count": {
+      "value": "1",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "synthetic-independent-controls.txt",
+        "sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "locator": "deposit_count",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      }
+    },
+    "withdrawal_total": {
+      "value": "10.00",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "synthetic-independent-controls.txt",
+        "sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "locator": "withdrawal_total",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      }
+    },
+    "deposit_total": {
+      "value": "30.00",
+      "evidence": {
+        "kind": "bank_control_summary",
+        "file": "synthetic-independent-controls.txt",
+        "sha256": "c17d6dd75eaf0d21075cef1ad4474f3d5a1165a26ff94b0eadd5e9405e80d2e3",
+        "locator": "deposit_total",
+        "reviewed_by": "synthetic-test-fixture",
+        "reviewed_at": "2026-11-05T00:00:00+07:00"
+      }
+    }
+  }
+}

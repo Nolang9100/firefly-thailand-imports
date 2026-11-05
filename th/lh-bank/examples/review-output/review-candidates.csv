@@ -1,0 +1,3 @@
+date,description,amount,currency,external_id,balance,note
+2026-09-02,Example payment,-10.00,THB,lh-bank-v1-362a31aaa3318d914a5970791b3f21765efb5e9dd8dfe4b481daede36031c6bd-000001,90.00,LHB You; opening_balance_derived_not_independently_confirmed; effective_date=02/09/2026
+2026-09-03,Example receipt,30.00,THB,lh-bank-v1-362a31aaa3318d914a5970791b3f21765efb5e9dd8dfe4b481daede36031c6bd-000002,120.00,LHB Branch; opening_balance_derived_not_independently_confirmed; effective_date=03/09/2026

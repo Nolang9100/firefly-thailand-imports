@@ -1,0 +1,40 @@
+{
+  "status": "LOCAL_CONVERSION_PASSED",
+  "bank": "scb",
+  "rows": 2,
+  "currency": "THB",
+  "checks": {
+    "count_check": "OK",
+    "amount_check": "OK",
+    "balance_check": "OK",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "controls": {
+    "expected_withdrawal_count": 1,
+    "expected_deposit_count": 1,
+    "expected_withdrawal_total": "10.00",
+    "expected_deposit_total": "30.00",
+    "count_check": "OK",
+    "amount_check": "OK",
+    "opening_balance": "100.00",
+    "closing_balance": "120.00",
+    "expected_closing_balance": null,
+    "balance_check": "OK",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "input_format": "pdf-text",
+  "opening_balance_source": "statement",
+  "closing_balance_source": "last_transaction_row",
+  "independent_closing_summary_check": "NOT_AVAILABLE",
+  "firefly_import_tested": false,
+  "independent_closing_balance_check": "NOT_PROVIDED",
+  "source_control_gaps": [
+    "separately_printed_closing_summary"
+  ],
+  "validation_scope": "single_statement_conversion_with_explicit_control_sources",
+  "input_sha256": "3a8672a8495cddfb9bb880b9ff043c467e6bda59a891e7685c4049b449824b2e"
+}

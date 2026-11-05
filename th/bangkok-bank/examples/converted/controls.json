@@ -1,0 +1,32 @@
+{
+  "status": "LOCAL_CONVERSION_PASSED",
+  "layout": "native-bbl-english-labels-v1",
+  "rows": 3,
+  "currency": "THB",
+  "text_sha256": "56a7d22331b25a33bf58f462ebdc3c92311fb2573553a71e7d3f3604b362eb6e",
+  "checks": {
+    "count_check": "OK",
+    "amount_check": "OK",
+    "balance_check": "OK",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "controls": {
+    "expected_withdrawal_count": 2,
+    "expected_deposit_count": 1,
+    "expected_withdrawal_total": "30.00",
+    "expected_deposit_total": "50.00",
+    "count_check": "OK",
+    "amount_check": "OK",
+    "opening_balance": "100.00",
+    "closing_balance": "120.00",
+    "expected_closing_balance": null,
+    "balance_check": "OK",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "firefly_import_tested": false,
+  "input_sha256": "cc383c116c2784c2bfa9153155b5128da7769d105a345ff2ce3cab838a68205a"
+}

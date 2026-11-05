@@ -1,0 +1,3 @@
+date,description,amount,currency,external_id,balance,note
+2026-09-02,Example payment,-10.00,THB,scb-v1-e72aaa865be56805865e76f58210467cb69ea5be4dc530dc4da48f6c1b7e5d89-000001,90.00,APP
+2026-09-03,Example receipt,30.00,THB,scb-v1-e72aaa865be56805865e76f58210467cb69ea5be4dc530dc4da48f6c1b7e5d89-000002,120.00,APP

@@ -1,0 +1,34 @@
+{
+  "status": "LOCAL_CONVERSION_PASSED",
+  "bank": "kbank",
+  "rows": 2,
+  "currency": "THB",
+  "checks": {
+    "count_check": "OK",
+    "amount_check": "OK",
+    "balance_check": "OK",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "controls": {
+    "expected_withdrawal_count": 1,
+    "expected_deposit_count": 1,
+    "expected_withdrawal_total": "10.00",
+    "expected_deposit_total": "30.00",
+    "count_check": "OK",
+    "amount_check": "OK",
+    "opening_balance": "100.00",
+    "closing_balance": "120.00",
+    "expected_closing_balance": "120.00",
+    "balance_check": "OK",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "input_format": "pdf-text",
+  "opening_balance_source": "statement",
+  "firefly_import_tested": false,
+  "real_statement_compatibility_tested": false,
+  "input_sha256": "a3951f8dc41abeaca9e1ebae13c63c53781680d6bafe57fa0779147bd4b3be56"
+}

@@ -1,0 +1,19 @@
+KASIKORNBANK
+SYNTHETIC TEST DATA - NOT A BANK STATEMENT
+01/09/2026 - 30/09/2026
+10.00
+120.00
+Total Withdrawal 1 Items
+Total Deposit 1 Items
+Ending Balance
+30.00
+PAGE/OF 1/2
+01-09-26 100.00Beginning Balance
+02-09-26 10:00 K PLUS90.00 To exampleTransfer Withdrawal 10.00
+KBPDF
+
+PAGE/OF 2/2
+02-09-26 90.00Beginning Balance
+03-09-26 11:00 Automatic Transfer120.00 From example
+Automatic Deposit 30.00
+KBPDF

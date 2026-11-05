@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "country": "th",
+  "banks": [
+    "bangkok-bank",
+    "kbank",
+    "scb",
+    "lh-bank"
+  ],
+  "effective_tests_passed": 52,
+  "not_applicable_tests_skipped": 2,
+  "new_effective_tests_passed": 8,
+  "formal_finance_data_changed": false,
+  "external_systems_changed": false,
+  "actual_firefly_import_tested": false,
+  "real_source_files_tested": 8,
+  "real_source_rows_checked": 907,
+  "real_conversion_files_passed": 7,
+  "real_conversion_rows_passed": 456,
+  "diagnostic_only_rows": 451,
+  "private_financial_data_included": false,
+  "control_build_complete": true,
+  "scb_adjacent_real_closing_checked": true,
+  "lh_real_review_candidates": 451,
+  "lh_real_standard_csv_export_ready": false,
+  "external_evidence_semantics_automatically_verified": false
+}
