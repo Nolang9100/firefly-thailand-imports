@@ -1,0 +1,8 @@
+KASIKORNBANK,SYNTHETIC TEST DATA - NOT A BANK STATEMENT
+Period,01/09/2026 - 30/09/2026
+sequence,date,time,type,withdrawal,unused,deposit,unused,balance,unused,channel,unused,description
+0,01-09-26,,Beginning Balance,,,,,100.00
+1,02-09-26,10:00,Payment,10.00,,,,90.00,,APP,,Example payment
+2,03-09-26,11:00,Deposit,,,30.00,,120.00,,APP,,Example receipt
+TOTAL WITHDRAWAL,1,10.00
+TOTAL DEPOSIT,1,30.00

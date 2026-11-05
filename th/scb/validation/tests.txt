@@ -1,0 +1,23 @@
+test_adjacent_account_date_balance_and_summary_mismatch_refused (test_converter.Tests.test_adjacent_account_date_balance_and_summary_mismatch_refused) ... ok
+test_adjacent_printed_opening_independently_checks_closing (test_converter.Tests.test_adjacent_printed_opening_independently_checks_closing) ... ok
+test_adjacent_text_cli (test_converter.Tests.test_adjacent_text_cli) ... ok
+test_bad_balance_refused (test_converter.Tests.test_bad_balance_refused) ... ok
+test_bad_date_refused (test_converter.Tests.test_bad_date_refused) ... ok
+test_config_and_stable_ids (test_converter.Tests.test_config_and_stable_ids) ... ok
+test_csv_normalization_and_bad_balance (test_converter.Tests.test_csv_normalization_and_bad_balance) ... skipped 'KBank CSV only'
+test_failure_no_outputs (test_converter.Tests.test_failure_no_outputs) ... ok
+test_header_refused (test_converter.Tests.test_header_refused) ... ok
+test_missing_duplicate_out_of_order_page_refused (test_converter.Tests.test_missing_duplicate_out_of_order_page_refused) ... ok
+test_missing_printed_opening_refused_even_with_caller_value (test_converter.Tests.test_missing_printed_opening_refused_even_with_caller_value) ... ok
+test_missing_summary_side_and_duplicate_summary_refused (test_converter.Tests.test_missing_summary_side_and_duplicate_summary_refused) ... ok
+test_native_thai_pagination_and_printed_openings (test_converter.Tests.test_native_thai_pagination_and_printed_openings) ... ok
+test_opening_confirmation (test_converter.Tests.test_opening_confirmation) ... ok
+test_plain_encrypted_pdf_and_cli (test_converter.Tests.test_plain_encrypted_pdf_and_cli) ... ok
+test_source_controls_refused (test_converter.Tests.test_source_controls_refused) ... ok
+test_synthetic_amounts_and_status (test_converter.Tests.test_synthetic_amounts_and_status) ... ok
+test_wrong_cross_page_carry_refused (test_converter.Tests.test_wrong_cross_page_carry_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.457s
+
+OK (skipped=1)

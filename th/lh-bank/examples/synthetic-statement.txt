@@ -1,0 +1,15 @@
+LH BANK
+SYNTHETIC TEST DATA - NOT A BANK STATEMENT
+Account e-Statement
+Date : 01/09/2026 - 30/09/2026
+Account Number : 000-0-00000-0
+Balance (THB)
+02/09/2026
+10:00
+02/09/2026 Example payment
+-10.00 90.00 LHB You
+03/09/2026
+11:00
+03/09/2026 Example receipt
++30.00 120.00 LHB Branch
+Page 1 / 1

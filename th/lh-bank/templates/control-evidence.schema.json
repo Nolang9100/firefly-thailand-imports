@@ -1,0 +1,378 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LH Bank external control attestation v1",
+  "type": "object",
+  "required": [
+    "version",
+    "bank",
+    "currency",
+    "statement_text_sha256",
+    "controls"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "bank": {
+      "const": "lh-bank"
+    },
+    "currency": {
+      "const": "THB"
+    },
+    "statement_text_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "controls": {
+      "type": "object",
+      "required": [
+        "opening_balance",
+        "closing_balance",
+        "withdrawal_count",
+        "deposit_count",
+        "withdrawal_total",
+        "deposit_total"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "opening_balance": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "string",
+              "pattern": "^-?[0-9]+\\.[0-9]{2}$"
+            },
+            "evidence": {
+              "type": "object",
+              "required": [
+                "kind",
+                "file",
+                "sha256",
+                "locator",
+                "reviewed_by",
+                "reviewed_at"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "previous_bank_statement",
+                    "next_bank_statement",
+                    "bank_balance_confirmation",
+                    "bank_control_summary"
+                  ]
+                },
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_by": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            }
+          }
+        },
+        "closing_balance": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "string",
+              "pattern": "^-?[0-9]+\\.[0-9]{2}$"
+            },
+            "evidence": {
+              "type": "object",
+              "required": [
+                "kind",
+                "file",
+                "sha256",
+                "locator",
+                "reviewed_by",
+                "reviewed_at"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "previous_bank_statement",
+                    "next_bank_statement",
+                    "bank_balance_confirmation",
+                    "bank_control_summary"
+                  ]
+                },
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_by": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            }
+          }
+        },
+        "withdrawal_count": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "string",
+              "pattern": "^[0-9]+$"
+            },
+            "evidence": {
+              "type": "object",
+              "required": [
+                "kind",
+                "file",
+                "sha256",
+                "locator",
+                "reviewed_by",
+                "reviewed_at"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "previous_bank_statement",
+                    "next_bank_statement",
+                    "bank_balance_confirmation",
+                    "bank_control_summary"
+                  ]
+                },
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_by": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            }
+          }
+        },
+        "deposit_count": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "string",
+              "pattern": "^[0-9]+$"
+            },
+            "evidence": {
+              "type": "object",
+              "required": [
+                "kind",
+                "file",
+                "sha256",
+                "locator",
+                "reviewed_by",
+                "reviewed_at"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "previous_bank_statement",
+                    "next_bank_statement",
+                    "bank_balance_confirmation",
+                    "bank_control_summary"
+                  ]
+                },
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_by": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            }
+          }
+        },
+        "withdrawal_total": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "string",
+              "pattern": "^[0-9]+\\.[0-9]{2}$"
+            },
+            "evidence": {
+              "type": "object",
+              "required": [
+                "kind",
+                "file",
+                "sha256",
+                "locator",
+                "reviewed_by",
+                "reviewed_at"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "previous_bank_statement",
+                    "next_bank_statement",
+                    "bank_balance_confirmation",
+                    "bank_control_summary"
+                  ]
+                },
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_by": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            }
+          }
+        },
+        "deposit_total": {
+          "type": "object",
+          "required": [
+            "value",
+            "evidence"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "string",
+              "pattern": "^[0-9]+\\.[0-9]{2}$"
+            },
+            "evidence": {
+              "type": "object",
+              "required": [
+                "kind",
+                "file",
+                "sha256",
+                "locator",
+                "reviewed_by",
+                "reviewed_at"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "previous_bank_statement",
+                    "next_bank_statement",
+                    "bank_balance_confirmation",
+                    "bank_control_summary"
+                  ]
+                },
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_by": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

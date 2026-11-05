@@ -1,0 +1,7 @@
+SYNTHETIC BANK CONTROL CONFIRMATION - FICTIONAL TEST DATA
+opening_balance: 100.00
+closing_balance: 120.00
+withdrawal_count: 1
+deposit_count: 1
+withdrawal_total: 10.00
+deposit_total: 30.00

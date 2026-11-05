@@ -1,0 +1,20 @@
+test_bad_balance_refused (test_converter.Tests.test_bad_balance_refused) ... ok
+test_bad_date_refused (test_converter.Tests.test_bad_date_refused) ... ok
+test_complete_attested_controls_match_without_relabeling_source (test_converter.Tests.test_complete_attested_controls_match_without_relabeling_source) ... ok
+test_config_and_stable_ids (test_converter.Tests.test_config_and_stable_ids) ... ok
+test_csv_normalization_and_bad_balance (test_converter.Tests.test_csv_normalization_and_bad_balance) ... skipped 'KBank CSV only'
+test_default_refuses_missing_full_evidence_even_with_opening (test_converter.Tests.test_default_refuses_missing_full_evidence_even_with_opening) ... ok
+test_external_evidence_schema (test_converter.Tests.test_external_evidence_schema) ... ok
+test_failure_no_outputs (test_converter.Tests.test_failure_no_outputs) ... ok
+test_header_refused (test_converter.Tests.test_header_refused) ... ok
+test_opening_confirmation (test_converter.Tests.test_opening_confirmation) ... ok
+test_plain_encrypted_pdf_and_cli (test_converter.Tests.test_plain_encrypted_pdf_and_cli) ... ok
+test_scoped_provenance_wrong_or_stale_controls_rejected (test_converter.Tests.test_scoped_provenance_wrong_or_stale_controls_rejected) ... ok
+test_source_controls_refused (test_converter.Tests.test_source_controls_refused) ... ok
+test_synthetic_amounts_and_status (test_converter.Tests.test_synthetic_amounts_and_status) ... ok
+test_verified_cli_and_review_cli_are_distinct (test_converter.Tests.test_verified_cli_and_review_cli_are_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.412s
+
+OK (skipped=1)

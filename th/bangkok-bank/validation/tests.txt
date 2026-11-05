@@ -1,0 +1,14 @@
+test_bad_input_creates_no_output (test_converter.ConverterTests.test_bad_input_creates_no_output) ... ok
+test_balances_and_direction (test_converter.ConverterTests.test_balances_and_direction) ... ok
+test_config_schema_and_roles (test_converter.ConverterTests.test_config_schema_and_roles) ... ok
+test_foreign_header_refused (test_converter.ConverterTests.test_foreign_header_refused) ... ok
+test_missing_or_bad_controls_are_refused (test_converter.ConverterTests.test_missing_or_bad_controls_are_refused) ... ok
+test_pdf_and_encrypted_pdf_end_to_end (test_converter.ConverterTests.test_pdf_and_encrypted_pdf_end_to_end) ... ok
+test_same_input_stable_ids_and_distinct_rows (test_converter.ConverterTests.test_same_input_stable_ids_and_distinct_rows) ... ok
+test_thai_description (test_converter.ConverterTests.test_thai_description) ... ok
+test_zero_closing_balance (test_converter.ConverterTests.test_zero_closing_balance) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.382s
+
+OK

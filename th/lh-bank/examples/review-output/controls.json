@@ -1,0 +1,45 @@
+{
+  "status": "REVIEW_ONLY_NOT_IMPORT_READY",
+  "bank": "lh-bank",
+  "rows": 2,
+  "currency": "THB",
+  "statement_text_sha256": "362a31aaa3318d914a5970791b3f21765efb5e9dd8dfe4b481daede36031c6bd",
+  "checks": {
+    "count_check": "NOT_CHECKED",
+    "amount_check": "NOT_CHECKED",
+    "balance_check": "NOT_CHECKED",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "controls": {
+    "expected_withdrawal_count": null,
+    "expected_deposit_count": null,
+    "expected_withdrawal_total": null,
+    "expected_deposit_total": null,
+    "count_check": "NOT_CHECKED",
+    "amount_check": "NOT_CHECKED",
+    "opening_balance": "100.00",
+    "closing_balance": "120.00",
+    "expected_closing_balance": null,
+    "balance_check": "NOT_CHECKED",
+    "row_balance_check": "OK",
+    "row_coverage_check": "OK",
+    "page_check": "OK"
+  },
+  "opening_balance_source": "first_row_derived_not_independent",
+  "closing_balance_source": "last_transaction_row",
+  "source_control_gaps": [
+    "printed_opening_balance",
+    "printed_debit_credit_counts_and_totals",
+    "separately_printed_closing_summary"
+  ],
+  "external_controls": {
+    "status": "NOT_PROVIDED"
+  },
+  "csv_export_ready": false,
+  "formal_source_approval": false,
+  "firefly_import_tested": false,
+  "validation_scope": "local_conversion_not_posting_approval",
+  "input_sha256": "253aaac33210c9608c78d391d714637bc6865ed7b9d0e467df78bec811adc15b"
+}

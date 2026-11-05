@@ -1,0 +1,34 @@
+{
+  "status": "LOCAL_DRAFT_VALIDATED",
+  "date": "2026-11-05",
+  "python": "3.12.14",
+  "dependencies": {
+    "pypdf": "6.21.4",
+    "jsonschema": "4.26.0",
+    "reportlab": "4.5.1"
+  },
+  "unit_tests": 9,
+  "tests_passed": true,
+  "schema_validation": "PASS: official importer v2.3.5 v3 schema",
+  "synthetic_pdf_cli": "PASS",
+  "encrypted_synthetic_pdf": "PASS",
+  "sample_rows": 3,
+  "sample_net_change": "20.00",
+  "sample_opening_balance": "100.00",
+  "sample_closing_balance": "120.00",
+  "real_bank_statements_tested": false,
+  "firefly_preview_tested": false,
+  "firefly_posting_tested": false,
+  "scope": "THB native text PDF English-label layout; not credit card or scan",
+  "known_limitations": [
+    "Different or overlapping statement exports require separate duplicate review",
+    "Thai descriptions tested in extracted text; Thai font PDF extraction needs real-layout validation",
+    "Unknown layouts are refused when controls cannot pass"
+  ],
+  "real_source_sample_count": 2,
+  "real_source_rows_checked": 259,
+  "real_statement_compatibility_tested": true,
+  "actual_firefly_import_tested": false,
+  "real_source_evidence_included": false,
+  "coverage_limitation": "Selected local samples only; reference parser shares logic; not a formal finance audit"
+}

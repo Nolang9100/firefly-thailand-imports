@@ -1,0 +1,3 @@
+date,description,amount,currency,external_id,balance,note
+2026-09-02,Example payment,-10.00,THB,kbank-v1-a7b73515fd1ddcd5f8913b9500991d09477feed8f700da2d7017a91ee76ca6e1-000001,90.00,APP
+2026-09-03,Example receipt,30.00,THB,kbank-v1-a7b73515fd1ddcd5f8913b9500991d09477feed8f700da2d7017a91ee76ca6e1-000002,120.00,APP
